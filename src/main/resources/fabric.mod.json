@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "holdcraft",
+  "version": "${version}",
+  "name": "Hold Craft",
+  "description": "Repeat the crafting recipe you placed or the villager trade you selected.",
+  "environment": "client",
+  "mixins": ["holdcraft.client.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}
